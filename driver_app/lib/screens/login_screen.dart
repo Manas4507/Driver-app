@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'order_screen.dart';
+import 'assigned_order_screen.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -125,7 +125,9 @@ class LoginScreen extends StatelessWidget {
                     onPressed: () {
                       Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (context) => const Center()),
+                        MaterialPageRoute(
+                          builder: (context) => const AssignedOrderScreen(),
+                        ),
                       );
                     },
                     child: const Text(

@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Driver App',
       theme: ThemeData(primarySwatch: Colors.teal),
-      home: const LoginScreen(), // App LoginScreen se shuru hogi
+      home: const LoginScreen(),
     );
   }
 }
